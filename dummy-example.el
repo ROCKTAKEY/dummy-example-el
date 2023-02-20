@@ -5,7 +5,7 @@
 ;; Author: ROCKTAKEY <rocktakey@gmail.com>
 ;; Keywords: tools
 
-;; Version: 0.0.0
+;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.1"))
 ;; URL: https://github.com/ROCKTAKEY/dummy-example-el
 
@@ -33,6 +33,16 @@
   :group 'tools
   :prefix "dummy-example-"
   :link '(url-link "https://github.com/ROCKTAKEY/dummy-example-el"))
+
+(defun dummy-example-func ()
+  "Dummy function."
+  (message "This is `dummy-example-func'"))
+
+;;;###autoload
+(defun dummy-example-command ()
+  "Dummy command."
+  (interactive)
+  (message "This is `dummy-example-command'"))
 
 (provide 'dummy-example)
 ;;; dummy-example.el ends here
