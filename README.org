@@ -1,0 +1,9 @@
+[[https://github.com/ROCKTAKEY/dummy-example][https://img.shields.io/github/tag/ROCKTAKEY/dummy-example.svg?style=flat-square]]
+[[file:LICENSE][https://img.shields.io/github/license/ROCKTAKEY/dummy-example.svg?style=flat-square]]
+[[https://codecov.io/gh/ROCKTAKEY/dummy-example?branch=master][https://img.shields.io/codecov/c/github/ROCKTAKEY/dummy-example.svg?style=flat-square]]
+[[https://github.com/ROCKTAKEY/dummy-example/actions][https://img.shields.io/github/actions/workflow/status/ROCKTAKEY/dummy-example/test.yml.svg?branch=master&style=flat-square]]
+* dummy-example: Dummy project
+
+* How to Use?
+* License
+  This package is licensed by GPLv3. See [[file:LICENSE][LICENSE]].
